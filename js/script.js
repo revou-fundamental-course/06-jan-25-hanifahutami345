@@ -105,3 +105,8 @@ $(document).ready(function () {
         }
     })
 });
+
+document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Mencegah pengiriman form secara default
+    alert("Data terkirim!"); // Menampilkan alert
+});
