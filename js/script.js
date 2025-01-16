@@ -1,3 +1,4 @@
+//greeting
 document.addEventListener("DOMContentLoaded", function() {
     const name = prompt("Siapa nama Anda?", ""); // Meminta input nama dari pengguna
     if (name) {
@@ -108,5 +109,8 @@ $(document).ready(function () {
 
 document.querySelector("form").addEventListener("submit", function(event) {
     event.preventDefault(); // Mencegah pengiriman form secara default
+    
     alert("Data terkirim!"); // Menampilkan alert
+    
+    this.reset(); // Mengosongkan semua input di dalam form
 });
