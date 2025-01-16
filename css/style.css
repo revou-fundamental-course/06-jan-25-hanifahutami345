@@ -87,7 +87,7 @@ nav ul li a:hover {
 /* pengaturan header*/
 header {
   position: relative;
-  height: 1000px;
+  height: 550px;
   width: 100%;
   overflow: hidden;
   z-index: 2;
